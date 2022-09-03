@@ -4,7 +4,6 @@
     <div class="time_logo">
       <img src="../assets/logo.png" alt="BiBimcartlogo" />
     </div>
-
     <!-- add_detail -->
     <div class="add_detail">
       <p>Où voulez-vous vous faire livrer</p>
@@ -15,9 +14,15 @@
       </div>
 
       <!-- two -->
-      <div class="detail_input">
-        <input type="email" placeholder="Pickup from shop" />
+      <div class="detail_input_wraper">
+        <div class="detail_input_second">
+          <input type="email" placeholder="Pickup from shop" />
+        </div>
+        <div class="whitetick">
+          <img src="../assets/detailnew/whitetick.png" alt="whitetick" />
+        </div>
       </div>
+
       <!-- three -->
       <div class="detail_input">
         <input type="email" placeholder="Parcel Pickup" />
@@ -75,7 +80,7 @@ export default {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 15vh;
+  top: 11vh;
 }
 
 .add_detail > p {
@@ -101,6 +106,58 @@ export default {
   color: #524582;
 }
 
+.detail_input_wraper {
+  width: 53%;
+  margin-left: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .detail_input_second start */
+
+.detail_input_second {
+  display: flex;
+  align-items: center;
+  color: #524582;
+  border-radius: 8px;
+  border: 2px solid #524582;
+  width: 100%;
+  height: 50px;
+  margin-top: 2vh;
+}
+
+.detail_input_second > input {
+  outline: none;
+  margin-left: 8px;
+  border: none;
+  width: 95%;
+  background: #f7f7f7;
+}
+
+.detail_input_second > span {
+  margin-right: 8px;
+}
+
+.whitetick {
+  background: #524582;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 2vh;
+}
+
+.whitetick > img {
+  width: 15px;
+  height: 12px;
+}
+
+/* .detail_input_second end  */
+
 .detail_input {
   display: flex;
   align-items: center;
@@ -109,6 +166,7 @@ export default {
   border: 2px solid #524582;
   width: 50%;
   height: 50px;
+  margin-top: 2vh;
 }
 
 .detail_input > input {
@@ -137,7 +195,7 @@ input:focus {
   display: flex;
   justify-content: space-around;
   position: relative;
-  top: 50vh;
+  top: 29vh;
 }
 
 /* cart_icon */
@@ -203,6 +261,12 @@ input:focus {
   margin: auto;
 }
 
+@media only screen and (max-width: 840px) {
+  .add_detail > p {
+    font-size: 26px;
+  }
+}
+
 @media only screen and (max-width: 769px) {
   /* .product_logo  */
   .time_logo {
@@ -221,19 +285,23 @@ input:focus {
 
   .add_detail > p {
     width: 100%;
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
   }
 
-  /* .detail_input > input {
-    width: 80%;
-    height: 40px;
+  /* .detail_input_wraper {
+    width: 83%;
+    margin-left: 3%;
   } */
+
+  .detail_input {
+    width: 80%;
+  }
 
   /* arrow_row */
 
   .arrow_row {
-    top: 58vh;
+    top: 35.8vh;
   }
 
   /* cart_icon */
@@ -272,11 +340,40 @@ input:focus {
     width: 10px;
     height: 8px;
   }
+
+  .detail_input_wraper {
+  width: 85%;
+  margin-left: 5%;
+}
+
+/* .detail_input_second start */
+
+  .whitetick {
+    width: 28px;
+    height: 28px;
+  }
+
+  .whitetick > img {
+    width: 11px;
+    height: 8.5px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   .time_logo > img {
     height: 25px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .add_detail > p {
+   font-size: 19px;
+  }
+
+   /* arrow_row */
+
+   .arrow_row {
+    top: 36.5vh;
   }
 }
 </style>

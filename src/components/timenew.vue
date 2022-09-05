@@ -205,7 +205,7 @@ export default {
   display: flex;
   justify-content: right;
   width: 76.5%;
-  margin-top: 204px;
+  margin-top: 205px;
 }
 
 .order_arrow > button {
@@ -245,8 +245,7 @@ export default {
   margin: auto;
 }
 
-@media only screen and (max-width: 1200px) {
-  /* order_arrow  */
+/* @media only screen and (max-width: 1200px) {
   .order_arrow {
     margin-top: 179px;
   }
@@ -254,7 +253,7 @@ export default {
   .add_detail {
     margin-top: 20px;
   }
-}
+} */
 
 @media only screen and (max-width: 1024px) {
   /* order_arrow  */
@@ -294,13 +293,13 @@ export default {
 
   /* order_arrow  */
   .order_arrow {
-    margin-top: 193px;
+    /* margin-top: 193px; */
+    margin-top: 220px;
   }
 }
 
 @media only screen and (max-width: 769px) {
-
-    /* .product_logo  */
+  /* .product_logo  */
   .time_logo {
     padding-left: 20px;
   }
@@ -310,7 +309,8 @@ export default {
   }
   /* order_arrow  */
   .order_arrow {
-    margin-top: 216px;
+    /* margin-top: 216px; */
+    margin-top: 288px;
     width: 95%;
   }
   /* order_arrow six */
@@ -350,7 +350,6 @@ export default {
 }
 
 @media only screen and (max-width: 480px) {
-
   .time_logo > img {
     height: 25px;
   }
@@ -398,7 +397,8 @@ export default {
 
   /* order_arrow  */
   .order_arrow {
-    margin-top: 229px;
+    /* margin-top: 229px; */
+    margin-top: 300px;
   }
 }
 
@@ -409,6 +409,11 @@ export default {
 
   .add_detail_heading > h6 {
     font-size: 16px;
+  }
+
+    /* order_arrow  */
+    .order_arrow {
+    margin-top: 302px;
   }
 }
 </style>

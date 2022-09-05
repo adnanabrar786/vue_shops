@@ -39,10 +39,10 @@
         <span>Cart</span>
       </div>
       <div class="order_arrow">
-        <router-link to="menu3" class="uparrow">
+        <router-link to="emailnew" class="uparrow">
           <img src="../assets/OrderHome/uparrow.png" alt="uparrow" />
         </router-link>
-        <router-link to="phone_numbernew" class="downarrow">
+        <router-link to="addressnew" class="downarrow">
           <img src="../assets/OrderHome/downarrow.png" alt="uparrow" />
         </router-link>
       </div>
@@ -195,7 +195,7 @@ input:focus {
   display: flex;
   justify-content: space-around;
   position: relative;
-  top: 29vh;
+  top: 28.8vh;
 }
 
 /* cart_icon */
@@ -261,6 +261,19 @@ input:focus {
   margin: auto;
 }
 
+@media only screen and (max-width: 1300px) {
+  .arrow_row {
+    top: 27.3vh;
+  }
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .arrow_row {
+    top: 26.5vh;
+  }
+}
+
 @media only screen and (max-width: 840px) {
   .add_detail > p {
     font-size: 26px;
@@ -301,7 +314,7 @@ input:focus {
   /* arrow_row */
 
   .arrow_row {
-    top: 35.8vh;
+    top: 33.3vh;
   }
 
   /* cart_icon */
@@ -342,11 +355,11 @@ input:focus {
   }
 
   .detail_input_wraper {
-  width: 85%;
-  margin-left: 5%;
-}
+    width: 85%;
+    margin-left: 5%;
+  }
 
-/* .detail_input_second start */
+  /* .detail_input_second start */
 
   .whitetick {
     width: 28px;
@@ -367,13 +380,13 @@ input:focus {
 
 @media only screen and (max-width: 350px) {
   .add_detail > p {
-   font-size: 19px;
+    font-size: 19px;
   }
 
-   /* arrow_row */
+  /* arrow_row */
 
-   .arrow_row {
-    top: 36.5vh;
+  .arrow_row {
+    top: 34vh;
   }
 }
 </style>

@@ -173,7 +173,7 @@
       </router-link>
     </li>
     <li>
-      <router-link to="comment" class="nav-link right"><img src="../assets/Vector.svg" alt=""> </router-link>
+      <router-link to="commentnew" class="nav-link right"><img src="../assets/Vector.svg" alt=""> </router-link>
     </li>
   </ul>
   </p>

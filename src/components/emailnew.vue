@@ -7,7 +7,7 @@
 
     <!-- add_detail -->
     <div class="add_detail">
-      <p>Comment tu t'appelles</p>
+      <p>Quel est ton e-mail</p>
       <div class="detail_input">
         <img src="../assets/emailnew/emailicon.png" alt="uparrow" />
         <input type="email" placeholder="Email here" />
@@ -26,7 +26,7 @@
         <router-link to="phone_numbernew" class="uparrow">
           <img src="../assets/OrderHome/uparrow.png" alt="uparrow" />
         </router-link>
-        <router-link to="phone_numbernew" class="downarrow">
+        <router-link to="detailnew" class="downarrow">
           <img src="../assets/OrderHome/downarrow.png" alt="uparrow" />
         </router-link>
       </div>

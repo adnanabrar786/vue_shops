@@ -27,7 +27,7 @@
           <!-- <button class="uparrow">
             <img src="../assets/OrderHome/uparrow.png" alt="uparrow" />
           </button> -->
-          <router-link to="timenew" class="uparrow">
+          <router-link to="orderhome" class="uparrow">
             <img src="../assets/OrderHome/uparrow.png" alt="uparrow" />
           </router-link>
           <router-link to="timenew" class="downarrow">

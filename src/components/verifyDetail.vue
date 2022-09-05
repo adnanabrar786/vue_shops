@@ -95,8 +95,8 @@
     </div>  
     </div>
 
-            <div class="cotainer mr-5 mb-5" style="position:relative;bottom:-1%;width:60%;left:18%">
-      <div class="row">
+            <!-- <div class="cotainer mr-5 mb-5" style="position:relative;bottom:-1%;width:60%;left:18%"> -->
+      <!-- <div class="row">
         <div class="col-md-11">
           <nav class="navbar ">
 
@@ -118,8 +118,30 @@
             </form>
           </nav>
         </div>
+      </div> -->
+
+
+<!-- changes  work start -->
+
+       <!-- arrow -->
+    <div class="arrow_row">
+      <div class="cart_icon">
+        <img src="../assets/commentnew/carticon.png" alt="uparrow" />
+        <span>Cart</span>
+      </div>
+      <div class="order_arrow">
+        <router-link to="addressnew" class="uparrow">
+          <img src="../assets/OrderHome/uparrow.png" alt="uparrow" />
+        </router-link>
+        <router-link to="payment" class="downarrow">
+          <img src="../assets/OrderHome/downarrow.png" alt="uparrow" />
+        </router-link>
       </div>
     </div>
+
+    <!-- changes  work end -->
+
+    <!-- </div> -->
 </template>
 
 <script>
@@ -178,4 +200,125 @@ input[type="radio"] {
 .bold {
   font-weight: bold
 }
+
+/* changes  work start*/
+
+/* arrow_row */
+
+.arrow_row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 5vh;
+}
+
+/* cart_icon */
+
+.cart_icon {
+  background-color: #01b8ae;
+  border-radius: 4px;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cart_icon > img {
+  width: 25px;
+  height: 25px;
+}
+
+.cart_icon > span {
+  color: #ffffff;
+}
+
+/* order_arrow six */
+.order_arrow {
+  display: flex;
+}
+
+.order_arrow > button {
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+}
+
+.order_arrow > .uparrow {
+  display: flex;
+  background: #ffffff;
+  width: 50px;
+  height: 40px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  box-shadow: 0px 10px 60px rgba(117, 171, 241, 0.5);
+}
+
+.uparrow > img {
+  width: 12px;
+  height: 10px;
+  margin: auto;
+}
+
+.order_arrow > .downarrow {
+  display: flex;
+  background: #01b8ae;
+  width: 50px;
+  height: 40px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.downarrow > img {
+  width: 12px;
+  height: 10px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 769px) {
+   /* arrow_row */
+
+  /* cart_icon */
+
+  .cart_icon {
+    width: 80px;
+    height: 30px;
+  }
+
+  .cart_icon > img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .cart_icon > span {
+    font-size: 13px;
+  }
+
+  /* order_arrow */
+  .order_arrow > .uparrow {
+    width: 40px;
+    height: 30px;
+  }
+
+  .uparrow > img {
+    width: 10px;
+    height: 8px;
+  }
+
+  .order_arrow > .downarrow {
+    width: 40px;
+    height: 30px;
+  }
+
+  .uparrow > img {
+    width: 10px;
+    height: 8px;
+  }
+}
+
+
+/* changes  work end*/
+
+
 </style>

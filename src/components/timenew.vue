@@ -79,9 +79,6 @@
 <script>
 export default {
   name: "timenew",
-  //   props: {
-  //     msg: String,
-  //   },
 };
 </script>
 
@@ -110,7 +107,8 @@ export default {
 /* add detail */
 
 .add_detail {
-  margin-top: 60px;
+  /* margin-top: 60px; */
+  margin-top: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -168,7 +166,6 @@ export default {
   padding-right: 25px;
   padding-left: 5px;
   margin: 0px 5px;
-  /* width: 20%; */
   outline: #ffffff;
   border: 1px solid #524582;
   font-size: 18px;
@@ -205,7 +202,7 @@ export default {
   display: flex;
   justify-content: right;
   width: 76.5%;
-  margin-top: 205px;
+  margin-top: 26.7vh;
 }
 
 .order_arrow > button {
@@ -245,20 +242,21 @@ export default {
   margin: auto;
 }
 
-/* @media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .order_arrow {
-    margin-top: 179px;
+  margin-top: 25vh;
   }
-
-  .add_detail {
-    margin-top: 20px;
-  }
-} */
+}
 
 @media only screen and (max-width: 1024px) {
+  .add_detail {
+    margin-top: 5vh;
+  }
+
   /* order_arrow  */
   .order_arrow {
     width: 85%;
+    margin-top: 32.3vh;
   }
 
   .add_detail_heading > p {
@@ -290,12 +288,6 @@ export default {
   .am_select {
     font-size: 16px;
   }
-
-  /* order_arrow  */
-  .order_arrow {
-    /* margin-top: 193px; */
-    margin-top: 220px;
-  }
 }
 
 @media only screen and (max-width: 769px) {
@@ -309,8 +301,7 @@ export default {
   }
   /* order_arrow  */
   .order_arrow {
-    /* margin-top: 216px; */
-    margin-top: 288px;
+    margin-top: 37.9vh;
     width: 95%;
   }
   /* order_arrow six */
@@ -335,7 +326,8 @@ export default {
   }
 
   .add_detail {
-    margin-top: 30px;
+    /* margin-top: 288px; */
+    margin-top: 5.2vh;
     width: 100%;
   }
 
@@ -397,8 +389,7 @@ export default {
 
   /* order_arrow  */
   .order_arrow {
-    /* margin-top: 229px; */
-    margin-top: 300px;
+    margin-top: 40.3vh;
   }
 }
 
@@ -411,9 +402,9 @@ export default {
     font-size: 16px;
   }
 
-    /* order_arrow  */
-    .order_arrow {
-    margin-top: 302px;
+  /* order_arrow  */
+  .order_arrow {
+    margin-top: 40.7vh;
   }
 }
 </style>

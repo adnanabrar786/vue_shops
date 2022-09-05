@@ -24,10 +24,10 @@
         <span>Cart</span>
       </div>
       <div class="order_arrow">
-        <router-link to="menu3" class="uparrow">
+        <router-link to="detailnew" class="uparrow">
           <img src="../assets/OrderHome/uparrow.png" alt="uparrow" />
         </router-link>
-        <router-link to="phone_numbernew" class="downarrow">
+        <router-link to="verifyDetails" class="downarrow">
           <img src="../assets/OrderHome/downarrow.png" alt="uparrow" />
         </router-link>
       </div>
@@ -189,6 +189,18 @@ input:focus {
   margin: auto;
 }
 
+@media only screen and (max-width: 1300px) {
+  .arrow_row {
+    top: 39.8vh;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .arrow_row {
+    top: 39.5vh;
+  }
+}
+
 @media only screen and (max-width: 971px) {
   /* arrow_row */
   .arrow_row {
@@ -232,7 +244,7 @@ input:focus {
   /* arrow_row */
 
   .arrow_row {
-    top: 49vh;
+    top: 49.1vh;
   }
 
   /* cart_icon */
@@ -277,13 +289,18 @@ input:focus {
   .time_logo > img {
     height: 25px;
   }
-}
 
+  /* arrow_row */
+
+  .arrow_row {
+    top: 50.8vh;
+  }
+}
 
 @media only screen and (max-width: 471px) {
   /* arrow_row */
   .arrow_row {
-    top: 46vh;
+    top: 46.1vh;
   }
 }
 </style>

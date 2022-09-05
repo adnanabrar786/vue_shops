@@ -9,7 +9,12 @@
     <div class="add_detail">
       <p>Quel est votre numéro de téléphone?</p>
       <!-- <input type="email" placeholder="Email here" class="detail_input" /> -->
-      <vue-tel-input class="phone" id="detail_input" type="text" v-model="phone" ></vue-tel-input>
+      <vue-tel-input
+        class="phone"
+        id="detail_input"
+        type="text"
+        v-model="phone"
+      ></vue-tel-input>
     </div>
 
     <!-- arrow -->
@@ -21,7 +26,7 @@
         <span>Cart</span>
       </div>
       <div class="order_arrow">
-        <router-link to="emailnew" class="uparrow">
+        <router-link to="commentnew" class="uparrow">
           <img src="../assets/OrderHome/uparrow.png" alt="uparrow" />
         </router-link>
         <router-link to="emailnew" class="downarrow">
@@ -179,6 +184,18 @@ input:focus {
   margin: auto;
 }
 
+
+@media only screen and (max-width: 1024px) {
+  .add_detail > p {
+  font-size: 23.5px;
+}
+  /* arrow_row */
+
+  .arrow_row {
+    top: 51.8vh;
+  }
+}
+
 @media only screen and (max-width: 769px) {
   /* .product_logo  */
   .time_logo {
@@ -253,6 +270,18 @@ input:focus {
 @media only screen and (max-width: 480px) {
   .time_logo > img {
     height: 25px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .add_detail > p {
+    font-size: 18px;
+  }
+
+  /* arrow_row */
+
+  .arrow_row {
+    top: 59.5vh;
   }
 }
 </style>

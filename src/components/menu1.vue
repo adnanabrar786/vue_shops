@@ -123,7 +123,7 @@
   <!-- <ul class="nav-item" style="position:relative; margin-left:35%;margin-top:-80px"> -->
   <ul class="nav-item" id="nav_item">
     <li>
-      <router-link to="time" class="nav-link left"><img src="../assets/Vector1.svg" alt="">
+      <router-link to="timenew" class="nav-link left"><img src="../assets/Vector1.svg" alt="">
       </router-link>
     </li>
     <li>

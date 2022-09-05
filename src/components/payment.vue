@@ -244,6 +244,7 @@ input[type="radio"] {
   justify-content: space-around;
   position: relative;
   top: 5vh;
+  padding-bottom: 20px;
 }
 
 /* cart_icon */
@@ -310,7 +311,7 @@ input[type="radio"] {
 }
 
 @media only screen and (max-width: 769px) {
-   /* arrow_row */
+  /* arrow_row */
 
   /* cart_icon */
 
@@ -349,7 +350,6 @@ input[type="radio"] {
     height: 8px;
   }
 }
-
 
 @media only screen and (max-width: 600px) {
   .input_div > input {

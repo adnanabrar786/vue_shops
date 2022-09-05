@@ -211,6 +211,7 @@ input[type="radio"] {
   justify-content: space-around;
   position: relative;
   top: 5vh;
+  padding-bottom: 20px;
 }
 
 /* cart_icon */
